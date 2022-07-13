@@ -51,6 +51,12 @@ a{
     color: #E99DCB;
     text-decoration: none;
 
+    transition: transform 100ms cubic-bezier(.65,.05,.36,1);
+
+}
+
+a:hover{
+    transform: scale(1.08);
 }
 
 nav{

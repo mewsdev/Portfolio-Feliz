@@ -76,10 +76,12 @@ h2{
 
 .p1{
     position: relative;
-    width: 270px;
-    height: 307px;
-    left: 1050px;
+    top: 30px;
+    left: 80%;
+    width: 370px;
+    
     margin-top: 30px;
+    object-position: left;
     
     transform: rotate(-23.5deg);
     transform: translatey(0px);

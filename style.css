@@ -62,3 +62,41 @@ a:hover{
 nav{
     align-items: right;
 }
+
+/* BODY TOTAL */
+
+h2{
+    color: #8099E9;
+    text-align: center;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 139px;
+
+}
+
+.p1{
+    position: relative;
+    width: 270px;
+    height: 307px;
+    left: 1050px;
+    margin-top: 30px;
+    
+    transform: rotate(-23.5deg);
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+    
+}
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}

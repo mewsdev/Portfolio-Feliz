@@ -1,0 +1,58 @@
+
+body{
+    font-family: 'Tsumiki Rounded', Courier, monospace;
+    background-color: #141430;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    background-color: #FFFF;
+    border-bottom: 7px solid #48CAE4;
+    justify-content: space-between;
+    padding: 31px 31px;
+}
+
+h1{
+    color: #48CAE4;
+    display: inline-block;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    width: 161px;
+    height: 58px;
+    left: 192px;
+    margin-top: 32px;
+}
+
+/*.Logo{
+    position: absolute;
+    margin: 30px 30px;
+    background-color: red;
+}*/
+
+.img{
+    border-image: 10px;
+    border: 10px;
+}
+
+a{  
+    display: inline-flex;
+    align-items: baseline;
+    margin-top: 32px;
+    padding: 10px;
+    background-color: #8099E9;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 5px 0px #00000040;
+    font-size: 150%;
+    font-weight: bolder;
+    color: #E99DCB;
+    text-decoration: none;
+
+}
+
+nav{
+    align-items: right;
+}
